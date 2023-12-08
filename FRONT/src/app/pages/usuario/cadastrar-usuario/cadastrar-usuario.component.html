@@ -1,0 +1,12 @@
+<h2>Cadastrar Usuario</h2>
+<div>
+    <label for="nome">Nome</label>
+    <input id="nome" [(ngModel)]="nome" placeholder="Digite seu nome" />
+</div>
+<div>
+    <label for="nascimento">Data de nascimento</label>
+    <input id="nascimento" [(ngModel)]="nascimento" placeholder="Digite sua data de nascimento" />
+</div>
+<div>
+    <button (click)="cadastrar()">Cadastrar</button>
+</div>

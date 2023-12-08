@@ -1,0 +1,13 @@
+@base_url = https://localhost:7228/api/usuario
+
+###Listar Usuario
+GET {{base_url}}/listar
+
+###Cadastrar Usuario
+POST {{base_url}}/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "Ana",
+    "nascimento": "11.11.2002"
+}

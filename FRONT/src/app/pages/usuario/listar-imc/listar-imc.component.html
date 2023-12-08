@@ -1,0 +1,15 @@
+<table> 
+    <tr>
+        <th>#</th>
+        <th>Peso</th>
+        <th>Altura</th>
+        <th>Usuario</th>
+    </tr>
+    <tr *ngFor="let imc of imcs ">
+        <td> {{imc.imcId}} </td>
+        <td> {{imc.peso}} </td>
+        <td> {{imc.altura}} </td>
+        <td> {{imc.usuarioId}} </td>
+
+    </tr>
+</table>
